@@ -9,10 +9,17 @@ import com.github.nicolasdotnet.vue.Window;
 
 /**
  *
- * @author pi
+ * @author nicolasdotnet
+ * @version Alpha
+ * @since 2019
  */
 public class Run {
     
+    /**
+     *Run app Calculator
+     * 
+     * @param args
+     */
     public static void main(String[] args) {
         
         Window calculator = new Window();

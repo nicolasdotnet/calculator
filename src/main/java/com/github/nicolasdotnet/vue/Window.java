@@ -19,7 +19,9 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author pi
+ * @author nicolasdotnet
+ * @version Alpha
+ * @since 2019
  */
 public class Window extends JFrame {
 
@@ -31,6 +33,9 @@ public class Window extends JFrame {
     private double a = 0;
     StringBuilder sb = new StringBuilder(10);
 
+    /**
+     * @constructor Window
+     */
     public Window() {
 
         // default setting
@@ -54,6 +59,10 @@ public class Window extends JFrame {
         this.setVisible(true);
 
     }
+    
+    /**
+     * Création du clavier numérique
+     */
 
     private String clavNumbers(String a) {
 
@@ -85,6 +94,11 @@ public class Window extends JFrame {
         return sb.toString();
 
     }
+    
+       
+    /**
+     * Création du clavier opérateur
+     */
 
     private void clavOpe(String sbString) {
 
@@ -160,6 +174,11 @@ public class Window extends JFrame {
 
         }
     }
+    
+       
+    /**
+     * Création panneau d'affichage
+     */
 
     private JLabel panneau() {
 
